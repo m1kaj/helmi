@@ -1,0 +1,9 @@
+venv
+.git
+.idea
+Report
+message_log.txt
+new_compilation.txt
+__pycache__
+credentials.json
+token.pickle
