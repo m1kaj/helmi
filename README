@@ -1,4 +1,0 @@
-Robot Framework project.
- - log in to Helmi Oppilashallinto web app
- - check for new messages from school to parent
- - send new messages as one email to parent
