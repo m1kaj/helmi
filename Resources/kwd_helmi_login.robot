@@ -10,8 +10,7 @@ User Submits Login Details As ${username} ${password}
     Wait And Click    ${LOC_LOGIN_BUTTON}
 
 Browser Is Opened To ${url}
-    Wait Until Keyword Succeeds    2 times    5 s    Location Should Contain    ${url}
-    ...                            msg=Browser location didn't contain ${url}
+    Wait Until Location Contains    ${url}    timeout=15s
 
 User Makes Sure UI Language Is Finnish
     Wait And Click    ${LOC_LOGIN_FINNISH}
