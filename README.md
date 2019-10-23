@@ -12,8 +12,8 @@ days:
 - compile an email of messages that have not been emailed yet
 - send email via Gmail API
 
-Tested on Linux together with a Gmail account for sending email:
-  1. Make sure Python 3.6 and Firefox are installed
+Tested on Linux, Python3.6, Firefox and Gmail account for sending email:
+  1. Make sure Firefox and Python 3.6 or newer are installed
   2. [Turn on Gmail API](https://developers.google.com/gmail/api/quickstart/python)
   3. Open a browser and login to [Google API console](https://console.developers.google.com)
      - check that Gmail API is enabled in Dashboard
