@@ -16,8 +16,8 @@ Resource    ${EXECDIR}/Resources/locators_helmi.robot
 
 *** Variables ***
 ${GMAIL_LOGIN_PAGE}            https://mail.google.com
-${BROWSER_WIDTH}               1200
-${BROWSER_HEIGHT}              1000
+${BROWSER_WIDTH}               1920
+${BROWSER_HEIGHT}              1080
 ${SELENIUM_IMPLICIT_WAIT}      0.2 seconds
 ${SELENIUM_TIMEOUT}            10 seconds
 ${MESSAGE_LOG}                 ${EXECDIR}/message_log.txt
