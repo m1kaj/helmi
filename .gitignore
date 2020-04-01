@@ -7,3 +7,4 @@ new_compilation.txt
 __pycache__
 credentials.json
 token.pickle
+.vscode
