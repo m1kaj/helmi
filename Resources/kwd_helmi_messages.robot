@@ -95,7 +95,7 @@ Read Message Content
     ...                pointer to title pops up a box that appears on top of title cell.
     [Arguments]    ${table}    ${row}
     Scroll Element Into View    ${table}//tr[${row}]
-    Click Element    ${table}//tr[${row}]//td[5]
+    Click Element    ${table}//tr[${row}]//td[3]
     # We could have read message body before clicking and then wait until body changes.
     # Even that would fail when duplicate messages get sent. Which is not impossible.
     # Normally message changes immediately when new subject is clicked. So we take the
